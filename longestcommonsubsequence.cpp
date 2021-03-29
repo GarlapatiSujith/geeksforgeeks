@@ -32,7 +32,7 @@ int lcs(char* x, char* y,int m, int n)
                 dp[i][j] = max(dp[i-1][j],dp[i][j-1]);
             }
         }
-    }
+    }//change
       
     return dp[m][n];
 }   
